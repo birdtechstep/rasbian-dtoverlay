@@ -8,10 +8,11 @@ sudo dtc -@ -I dts -O dtb -o /boot/overlays/foo.dtbo foo-overlay.dts
 fbcon=map:10 fbcon=font:VGA8x16
 
 ## config.txt
+
 dtoverlay=makerlabtft35-capacitive
 dtparam=speed=62000000
 dtparam=fps=60
 dtparam=touch-swapxy=true
 dtparam=touch-invx=true
 
-# BIRD TECHSTEP
+### BIRD TECHSTEP
