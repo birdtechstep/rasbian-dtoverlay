@@ -18,4 +18,17 @@ dtparam=touch-swapxy=true
 dtparam=touch-invx=true
 ~~~~
 
+## PIN CONNECT
+~~~~
+DISPLAY SPI
+cs-gpios    = CE0
+sclk-gpios  = SCLK
+mosi-gpios  = MOSI
+miso-gpios  = MISO
+dc-gpios    = BCM24
+reset-gpios = BCM25
+led-gpios   = BCM18
+Capacitive Touch I2C
+interrupts  = BCM4
+~~~~
 ### BIRD TECHSTEP
