@@ -27,8 +27,8 @@ mosi-gpios  = MOSI
 miso-gpios  = MISO
 dc-gpios    = BCM24
 reset-gpios = BCM25
-led-gpios   = BCM18
+led-gpios   = BCM23
 Capacitive Touch I2C
-interrupts  = BCM4
+interrupts  = BCM17
 ~~~~
 ### BIRD TECHSTEP
