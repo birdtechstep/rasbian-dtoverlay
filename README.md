@@ -25,10 +25,10 @@ cs-gpios    = CE0
 sclk-gpios  = SCLK
 mosi-gpios  = MOSI
 miso-gpios  = MISO
-dc-gpios    = BCM24
-reset-gpios = BCM25
-led-gpios   = BCM23
+dc-gpios    = BCM27 [pin13]
+reset-gpios = BCM26 [pin37]
+led-gpios   = BCM13 [pin33]
 Capacitive Touch I2C
-interrupts  = BCM17
+interrupts  = BCM16 [pin36]
 ~~~~
 ### BIRD TECHSTEP
